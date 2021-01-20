@@ -46,9 +46,9 @@ namespace Zoo
             
         }
 
-        public override void EatAndDrink()
+        public override string EatAndDrink()
         {
-            Console.WriteLine("It crunches a cracker and spills crumbs all over your shirt. Clean yourself up, jeez.");
+            return "It crunches a cracker and spills crumbs all over your shirt. Clean yourself up, jeez.";
         }
 
         public override void Sleep()
@@ -56,9 +56,9 @@ namespace Zoo
             
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("...SKWAWK...");
+            return "...SKWAWK...";
         }
 
         public void Hunt()

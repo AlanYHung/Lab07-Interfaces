@@ -46,9 +46,9 @@ namespace Zoo
             
         }
 
-        public override void EatAndDrink()
+        public override string EatAndDrink()
         {
-            
+            return base.EatAndDrink();
         }
 
         public override void Sleep()

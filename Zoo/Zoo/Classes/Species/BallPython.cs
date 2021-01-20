@@ -48,9 +48,9 @@ namespace Zoo
             
         }
 
-        public override void EatAndDrink()
+        public override string EatAndDrink()
         {
-            Console.WriteLine("The snake swallows a mouse- whole!");
+            return "The snake swallows a mouse- whole!";
         }
 
         public override void Sleep()
@@ -58,9 +58,9 @@ namespace Zoo
             
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("*rustling leaves*");
+            return "*rustling leaves*";
         }
 
         public void Hunt()

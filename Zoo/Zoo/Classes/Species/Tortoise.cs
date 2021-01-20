@@ -50,9 +50,9 @@ namespace Zoo
             
         }
 
-        public override void EatAndDrink()
+        public override string EatAndDrink()
         {
-            Console.WriteLine("It monches slowly and contently on a hibiscus flower");
+            return "It monches slowly and contently on a hibiscus flower";
         }
 
         public override void Sleep()

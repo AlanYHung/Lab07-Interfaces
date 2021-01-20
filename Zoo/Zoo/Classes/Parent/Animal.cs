@@ -16,15 +16,15 @@ namespace Zoo
         public abstract bool IsEndangered { get; set; }
         public abstract decimal Weight { get; set; }
 
-        public virtual void EatAndDrink()
+        public virtual string EatAndDrink()
         {
-            Console.WriteLine("It eats some food.");
+            return "It eats some food.";
         }
         public abstract void Sleep();
 
-        public virtual void Sound()
+        public virtual string Sound()
         {
-            Console.WriteLine("It emits a sound.");
+            return "It emits a sound.";
         }
 
     }

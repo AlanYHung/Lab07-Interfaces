@@ -43,9 +43,9 @@ namespace Zoo
             
         }
 
-        public override void EatAndDrink()
+        public override string EatAndDrink()
         {
-            Console.WriteLine("It cracks open a nut and quickly chomps it");
+            return "It cracks open a nut and quickly chomps it";
         }
 
         public override void Sleep()
@@ -53,9 +53,9 @@ namespace Zoo
             
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("Dodo.. Dodooooo");
+            return "Dodo.. Dodooooo";
         }
 
         public void Hunt()

@@ -15,7 +15,7 @@ namespace ZooTests
         }
 
         [Fact]
-        public void Build_Orca_Whale()
+        public void Build_Manatee()
         {
             Manatee Shamu = new Manatee();
             Shamu.TimeSubmerged = 90;
@@ -40,7 +40,7 @@ namespace ZooTests
         } 
 
         [Fact]
-        public void Build_Komodo_Dragon()
+        public void Build_Tortoise()
         {
             Tortoise BruceLee = new Tortoise();
             BruceLee.Personality = "Cocky";
@@ -70,5 +70,77 @@ namespace ZooTests
             EmergencyFoodSupply.FoodSource = "tasty meal";
             Assert.Equal("tasty meal", EmergencyFoodSupply.FoodSource);
         }
+
+        [Fact]
+        public void Test_BallPython_Interface()
+        {
+            BallPython test = new BallPython { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_BettaFish_Interface()
+        {
+            BettaFish test = new BettaFish { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_Dodo_Interface()
+        {
+            Dodo test = new Dodo { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_Lion_Interface()
+        {
+            Lion test = new Lion { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_Manatee_Interface()
+        {
+            Manatee test = new Manatee { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_Parrot_Interface()
+        {
+            Parrot test = new Parrot { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_SeaBass_Interface()
+        {
+            SeaBass test = new SeaBass { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_Tortoise_Interface()
+        {
+            Tortoise test = new Tortoise { isObligate = true };
+            Assert.True(test.isObligate);
+        }
+
+        [Fact]
+        public void Test_Sounds_Method()
+        {
+            Lion cherry = new Lion();
+            Assert.Equal("*soft purring*", cherry.Sound()) ;
+        }
+
+        [Fact]
+        public void Test_EatAndDrink_Mehod()
+        {
+            string speak = "It crunches a cracker and spills crumbs all over your shirt. Clean yourself up, jeez.";
+            Parrot carlos = new Parrot();
+            Assert.Equal(speak, carlos.EatAndDrink());
+        }
+
     }
 }

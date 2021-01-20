@@ -57,9 +57,9 @@ namespace Zoo
             Console.WriteLine("It takes a chomp out of a fresh zebra");
         }
 
-        public override void EatAndDrink()
+        public override string EatAndDrink()
         {
-            
+            return base.EatAndDrink();
         }
 
         public override void Sleep()
@@ -67,9 +67,9 @@ namespace Zoo
             
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("*soft purring*");
+            return "*soft purring*";
         }
 
         public void Hunt()
