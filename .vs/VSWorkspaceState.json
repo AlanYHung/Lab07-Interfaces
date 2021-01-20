@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Zoo",
+    "\\Zoo\\Zoo",
+    "\\Zoo\\Zoo\\Classes"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Assets",
   "PreviewInSolutionExplorer": false
 }
