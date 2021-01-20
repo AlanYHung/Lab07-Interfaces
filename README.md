@@ -12,7 +12,7 @@ Run the program in visual studio by selecting file - open - Project/Solution, th
 ### Visuals:
 
 UML:
-![UML Diagram](./Assets/lab06-zoouml.pdf)
+![UML Diagram](./Assets/lab06-zoouml)
 
 File Structure
 ![File Structure](./Assets/FileStructure.png)
